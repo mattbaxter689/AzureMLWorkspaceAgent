@@ -130,6 +130,7 @@ These ideas are currently out of scope for the current project, but will be impl
 - [ ] Create toolsets to batch different tools together, rather than having all tools at once. Also incorporate max steps for each of these. Use a smaller model to classify intent to choose the tools to be included in that current run
 - [ ] Add sqlite database to store tool calls and log requests along with estimated costs with drizzle
 - [ ] Job error log fetch to triage the actual error behind job failures
+- [ ] Similarity tool for compute clusters to deduplicate instances
 - [ ] Add human approval requirement for creating compute and data assets. Currently moved out as it will be too involved for what else I have planned for the project
  
 ## Security Notes

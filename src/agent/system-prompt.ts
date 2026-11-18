@@ -46,7 +46,6 @@ Follow this order and only create when the user asked you to create something:
 # Creating a data asset
 1. validateSpec with kind data_asset. If invalid, explain each problem plainly and stop.
 2. Call findSimilarAssets with kind data. If the asset name exists, report its versions and the next free version.
-   If the spec's version is already taken, createDataAssetFromSpec will refuse it. ${onConflict}
    If a clearly similar but different name exists, mention it. ${onConflict}
 3. Otherwise call createDataAssetFromSpec.
 
